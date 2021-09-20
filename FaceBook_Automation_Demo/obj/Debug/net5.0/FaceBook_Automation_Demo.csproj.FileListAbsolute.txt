@@ -101,3 +101,4 @@ C:\Users\sivaranjani.b\source\repos\FaceBook_Automation_Demo\FaceBook_Automation
 C:\Users\sivaranjani.b\source\repos\FaceBook_Automation_Demo\FaceBook_Automation_Demo\obj\Debug\net5.0\ref\FaceBook_Automation_Demo.dll
 C:\Users\sivaranjani.b\source\repos\FaceBook_Automation_Demo\FaceBook_Automation_Demo\obj\Debug\net5.0\FaceBook_Automation_Demo.pdb
 C:\Users\sivaranjani.b\source\repos\FaceBook_Automation_Demo\FaceBook_Automation_Demo\obj\Debug\net5.0\FaceBook_Automation_Demo.genruntimeconfig.cache
+C:\Users\sivaranjani.b\source\repos\FaceBook_Automation_Demo\FaceBook_Automation_Demo\bin\Debug\net5.0\WebDriver.Support.dll

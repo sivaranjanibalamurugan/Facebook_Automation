@@ -25,7 +25,7 @@ namespace FaceBook_Automation_Demo.DoActions
             login.password.SendKeys("Login@123");
             System.Threading.Thread.Sleep(1000);
             login.loginBt.Click();
-            System.Threading.Thread.Sleep(1000);
+            System.Threading.Thread.Sleep(9000);
 
         }
     }

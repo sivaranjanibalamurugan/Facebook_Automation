@@ -1,4 +1,9 @@
-﻿using NUnit.Framework;
+﻿/*
+ * project = POM
+ * created by = SIVA RANJANI B
+ * Created on = 12/09/21
+ */
+using NUnit.Framework;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Support.UI;
 using System;
@@ -45,21 +50,19 @@ namespace FaceBook_Automation_Demo.Pages
             System.Threading.Thread.Sleep(4000);
 
             SelectElement element1 = new SelectElement(driver.FindElement(By.Id("month")));
-            element1.SelectByValue("Sep");
+            element1.SelectByValue("9");
             System.Threading.Thread.Sleep(4000);
 
             SelectElement element2 = new SelectElement(driver.FindElement(By.Id("year")));
             element2.SelectByValue("1999");
             System.Threading.Thread.Sleep(4000);
 
-            IWebElement Female = driver.FindElement(By.XPath("//input[@type = 'radio' and @value = '2']"));
+            IWebElement Female = driver.FindElement(By.XPath("//input[@type = 'radio' and @value = '1']"));
             Female.Click();
             System.Threading.Thread.Sleep(4000);
 
-            IWebElement submit = driver.FindElement(By.Name("submit"));
-            submit.Click();
-            System.Threading.Thread.Sleep(4000);
-
+            driver.FindElement(By.Name("websubmit")).Click();
+            System.Threading.Thread.Sleep(9000);
         }
     }
 }
